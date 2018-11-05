@@ -9,6 +9,7 @@ def check(remain, pre) #remain:残った人数 pre:前のテーブルに配置�
     cnt = 0
     pre.upto(M) do |i|
         cnt += check(remain - i, i)
+        puts cnt
     end
     cnt
 end
