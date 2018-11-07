@@ -1,4 +1,4 @@
-N = 4
+N = 100
 
 cnt = 0
 for rock in range(N+1):
